@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:hintEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/editUsername"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="8dp"
+            android:inputType="text"
+            android:hint="Username"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/cardview_dark_background"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:hintEnabled="false"
+        app:passwordToggleDrawable="@drawable/ic_show_password"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/editPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="8dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/cardview_dark_background"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#6D77FA"
+        android:text="Login"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <!-- Background Colors -->
+    <color name="login_background">#1A202C</color>
+    <color name="card_background">#2D3748</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#E2E8F0</color>
+    <color name="text_secondary">#A0AEC0</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary_background">#3182CE</color>
+    <color name="button_primary_text">#FFFFFF</color>
+    <color name="button_secondary_background">#4A5568</color>
+    <color name="button_secondary_text">#A0AEC0</color>
+
+    <!-- Accent Colors -->
+    <color name="accent">#63B3ED</color>
+
+    <!-- Divider and Shadow -->
+    <color name="divider">#2D3748</color>
+    <color name="shadow">#80000000</color>
+</resources>
